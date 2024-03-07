@@ -4,5 +4,6 @@ var
 inicio
    msg <- "Ola Mundo!"
    Escreval(msg)
-   Escreva("Me livrei da maldição!")
+   Escreval("Me livrei da maldição!")
+   Escreva("Mensagem: ", msg)
 fimalgoritmo
