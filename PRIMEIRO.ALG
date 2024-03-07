@@ -2,6 +2,7 @@ algoritmo "primeiro"
 var
    msg: caractere
 inicio
-   Escreval("Ola Mundo!")
+   msg <- "Ola Mundo!"
+   Escreval(msg)
    Escreva("Me livrei da maldição!")
 fimalgoritmo
