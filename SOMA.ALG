@@ -10,5 +10,5 @@ inicio
    
    S <- N1 + N2
    
-   escreva(S)
+   escreva("A soma entre", N1, " e", N2, " e igual a", S)
 fimalgoritmo
