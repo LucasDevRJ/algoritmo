@@ -5,24 +5,24 @@ var
 inicio
       escreva("Digite o valor da casa: R$")
       leia(valor_casa)
-      
+
       escreva("Digite o salario do comprador: R$")
       leia(salario_comprador)
-      
+
       escreva("Digite em quantos anos ira pagar: ")
       leia(anos_pagar)
-      
+
       meses_pagar <- anos_pagar * 12
       prestacao_mensal <- valor_casa / meses_pagar
       percentual_salario <- salario_comprador * (30 / 100)
       percentual_mensal <- prestacao_mensal * 100 / salario_comprador
-      
+
       se (prestacao_mensal > percentual_salario) entao
          escreval("Emprestimo negado!!")
       senao
          escreval("Emprestimo aceito!!")
       fimse
-      
+
       escreval()
       escreval("Valor da casa: R$", valor_casa:5:2)
       escreval("Salario do comprador: R$", salario_comprador:5:2)
